@@ -1,0 +1,54 @@
+{
+  /*
+     Each crate has the option to only roll specific rarities.
+     In this example, it can roll Common and Rare only.
+     If we want to specify this, make sure to only set the rarities for the ones you want at the bottom.
+     Adding more rarities to what can be rolled is as simple as copy-pasting the template for one rarity and changing the name.
+
+     Each item in the loot pool can also have alternatives, with chances to roll that alternative.
+     If you decide to have alternatives, make sure you also fill up AlternativesChances with the proper number of chances.
+     If you want no alternatives, just delete both lines.
+     
+     To actually add an item, the "Type" field must be the internal name of the vanilla item, or "ModName/ModItem".
+     "ModName" being, well, the mod's internal name, and "ModItem" being the internal name of the mod item.
+
+                  < -  [ MAKE SURE TO DO "ModName/ModItem", OR IT WILL THROW AN ERROR. ]  - >
+
+     This might be more effort than just writing code, but I feel like it's easier and less tedious, and also gave me json parsing experience.
+  */
+  "Rarities": {
+    "Common": [
+      {
+        "Type": "LootCratesMod/BasicLootCrate",
+        "Chance": 1,
+        "MinStack": 1,
+        "MaxStack": 1,
+        "Alternatives": [ "CopperOre", "SilverOre", "GoldOre" ],
+        "AlternativesChances": [ 0.3, 0.6, 0.3 ]
+      },
+      {
+        "Type": "Bottle",
+        "Chance": 1,
+        "MinStack": 1,
+        "MaxStack": 10,
+        "Alternatives": [ "CopperOre" ],
+        "AlternativesChances": [ 0.2 ]
+      }
+    ],
+    "Rare": [
+      {
+        "Type": "Bottle",
+        "Chance": 1,
+        "MinStack": 1,
+        "MaxStack": 3,
+        "Alternatives": [ "CopperOre" ],
+        "AlternativesChances": [ 0.2 ]
+      }
+    ]
+  },
+  // Chances must add up to 1
+  "RarityChances": {
+    "Common": 0.8,
+    "Rare": 0.2
+  }
+}

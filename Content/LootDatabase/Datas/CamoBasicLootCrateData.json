@@ -1,0 +1,21 @@
+{
+  "Rarities": {
+    "Common": [
+      {
+        "Type": "Mace",
+        "Chance": 1,
+        "MinStack": 1,
+        "MaxStack": 1,
+        "Alternatives": [ "EnchantedBoomerang", "BoneSword", "Boomstick", "ChainKnife", "ThornWhip", "EnchantedSword", "FlintlockPistol" ],
+        "AlternativesChances": [ 0.3, 0.05, 0.2, 0.2, 0.2, 0.05, 0.2 ]
+      }
+    ]
+  },
+  "RarityChances": {
+    "Common": 0.05,
+    "Uncommon": 0.4,
+    "Rare": 0.25,
+    "Epic": 0.2,
+    "Legendary": 0.1
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "Rarities": {
+    "Common": [
+      {
+        "Type": "MagicMirror",
+        "Chance": 1,
+        "MinStack": 1,
+        "MaxStack": 1,
+        "Alternatives": [ "Aglet", "HermesBoots", "CloudinaBottle", "BandofRegeneration" ],
+        "AlternativesChances": [ 0.3, 0.3, 0.4, 0.3 ]
+      },
+      {
+        "Type": "LesserHealingPotion",
+        "Chance": 0.8,
+        "MinStack": 7,
+        "MaxStack": 14
+      },
+      {
+        "Type": "Wood",
+        "Chance": 1,
+        "MinStack": 34,
+        "MaxStack": 52,
+        "Alternatives": [ "Shuriken", "ThrowingKnife", "Rope" ],
+        "AlternativesChances": [ 0.4, 0.35, 0.5 ]
+      },
+      {
+        "Type": "Torch",
+        "Chance": 1,
+        "MinStack": 18,
+        "MaxStack": 28,
+        "Alternatives": [ "Glowstick" ],
+        "AlternativesChances": [ 0.4 ]
+      },
+      {
+        "Type": "SilverCoin",
+        "Chance": 0.65,
+        "MinStack": 16,
+        "MaxStack": 33,
+        "Alternatives": [ "CopperCoin" ],
+        "AlternativesChances": [ 0.15 ]
+      },
+      {
+        "Type": "Topaz",
+        "Chance": 1,
+        "MinStack": 6,
+        "MaxStack": 13,
+        "Alternatives": [ "Amethyst", "Ruby", "Sapphire", "Emerald", "Diamond" ],
+        "AlternativesChances": [ 0.5, 0.25, 0.25, 0.05, 0.04 ]
+      },
+      {
+        "Type": "IronskinPotion",
+        "Chance": 0.75,
+        "MinStack": 1,
+        "MaxStack": 2,
+        "Alternatives": [ "ShinePotion", "NightOwlPotion", "SwiftnessPotion", "MiningPotion", "BuilderPotion" ],
+        "AlternativesChances": [ 0.25, 0.25, 0.25, 0.18, 0.15 ]
+      }
+    ],
+    "Uncommon": [
+      {
+        "Type": "MagicMirror",
+        "Chance": 1,
+        "MinStack": 1,
+        "MaxStack": 1,
+        "Alternatives": [ "Aglet", "HermesBoots", "CloudinaBottle", "BandofRegeneration", "LuckyHorseshoe", "AnkletoftheWind" ],
+        "AlternativesChances": [ 0.15, 0.3, 0.3, 0.25, 0.2, 0.2 ]
+      },
+      {
+        "Type": "LesserHealingPotion",
+        "Chance": 0.85,
+        "MinStack": 12,
+        "MaxStack": 15,
+        "Alternatives": [ "HealingPotion" ],
+        "AlternativesChances": [ 0.35 ]
+      },
+      {
+        "Type": "Wood",
+        "Chance": 1,
+        "MinStack": 52,
+        "MaxStack": 72,
+        "Alternatives": [ "Shuriken", "ThrowingKnife" ],
+        "AlternativesChances": [ 0.35, 0.45 ]
+      },
+      {
+        "Type": "Torch",
+        "Chance": 1,
+        "MinStack": 25,
+        "MaxStack": 33,
+        "Alternatives": [ "Grenade", "Glowstick" ],
+        "AlternativesChances": [ 0.35, 0.4 ]
+      },
+      {
+        "Type": "SilverCoin",
+        "Chance": 0.65,
+        "MinStack": 30,
+        "MaxStack": 56,
+        "Alternatives": [ "CopperCoin" ],
+        "AlternativesChances": [ 0.15 ]
+      },
+      {
+        "Type": "Topaz",
+        "Chance": 1,
+        "MinStack": 6,
+        "MaxStack": 13,
+        "Alternatives": [ "Ruby", "Sapphire", "Emerald", "Diamond" ],
+        "AlternativesChances": [ 0.3, 0.3, 0.15, 0.15 ]
+      },
+      {
+        "Type": "IronskinPotion",
+        "Chance": 0.8,
+        "MinStack": 1,
+        "MaxStack": 2,
+        "Alternatives": [ "ShinePotion", "NightOwlPotion", "SwiftnessPotion", "MiningPotion", "BuilderPotion" ],
+        "AlternativesChances": [ 0.2, 0.2, 0.2, 0.2, 0.2 ]
+      }
+    ],
+    "Rare": [
+      {
+        "Type": "MagicMirror",
+        "Chance": 1,
+        "MinStack": 1,
+        "MaxStack": 1,
+        "Alternatives": [ "HermesBoots", "CloudinaBottle", "LuckyHorseshoe", "AnkletoftheWind" ],
+        "AlternativesChances": [ 0.3, 0.3, 0.25, 0.25 ]
+      },
+      {
+        "Type": "HealingPotion",
+        "Chance": 0.85,
+        "MinStack": 10,
+        "MaxStack": 19
+      },
+      {
+        "Type": "Wood",
+        "Chance": 1,
+        "MinStack": 52,
+        "MaxStack": 72,
+        "Alternatives": [ "Shuriken", "ThrowingKnife" ],
+        "AlternativesChances": [ 0.35, 0.45 ]
+      },
+      {
+        "Type": "Torch",
+        "Chance": 1,
+        "MinStack": 25,
+        "MaxStack": 33,
+        "Alternatives": [ "Grenade", "Glowstick" ],
+        "AlternativesChances": [ 0.35, 0.4 ]
+      },
+      {
+        "Type": "SilverCoin",
+        "Chance": 0.65,
+        "MinStack": 30,
+        "MaxStack": 56,
+        "Alternatives": [ "CopperCoin" ],
+        "AlternativesChances": [ 0.15 ]
+      },
+      {
+        "Type": "Topaz",
+        "Chance": 1,
+        "MinStack": 6,
+        "MaxStack": 13,
+        "Alternatives": [ "Ruby", "Sapphire", "Emerald", "Diamond" ],
+        "AlternativesChances": [ 0.3, 0.3, 0.15, 0.15 ]
+      },
+      {
+        "Type": "IronskinPotion",
+        "Chance": 0.8,
+        "MinStack": 1,
+        "MaxStack": 2,
+        "Alternatives": [ "ShinePotion", "NightOwlPotion", "SwiftnessPotion", "MiningPotion", "BuilderPotion" ],
+        "AlternativesChances": [ 0.2, 0.2, 0.2, 0.2, 0.2 ]
+      }
+    ]
+  },
+  "RarityChances": {
+    "Common": 0.45,
+    "Uncommon": 0.35,
+    "Rare": 0.2
+  }
+}

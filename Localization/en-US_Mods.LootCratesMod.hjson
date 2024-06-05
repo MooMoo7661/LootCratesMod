@@ -1,0 +1,23 @@
+Items: {
+	BasicLootCrate: {
+		DisplayName: Basic Crate
+		Tooltip: A small, yellow box that contains simple items.
+	}
+
+	CamoBasicLootCrate: {
+		DisplayName: Camo Basic Loot Crate
+		Tooltip: ""
+	}
+}
+
+Common: Common
+Uncommon: Uncommon
+Rare: Rare!
+Epic: Epic!
+Legendary: Legendary!
+
+Projectiles: {
+	CrateProjectile.DisplayName: Crate Projectile
+	BasicLootCrateProjectile.DisplayName: Basic Loot Crate Projectile
+	CamoBasicLootCrateProjectile.DisplayName: Camo Basic Loot Crate Projectile
+}

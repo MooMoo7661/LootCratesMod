@@ -1,0 +1,3 @@
+displayName = Loot Boxes
+author = MooMoo
+version = 0.1
